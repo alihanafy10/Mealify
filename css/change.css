@@ -1,0 +1,37 @@
+:root{
+  --dis: none;
+  --dib: block;
+  --main-colo-black: #212529;
+    --black-color: #000;
+    --second-color:#37373f;
+    --p-color:#4f4f5a;
+    --social-color:#F5F5F5;
+    --white-color: white;
+    --white-color-two:hsl(0, 0%, 99%);
+    --white-color-three: hsl(0, 0%, 98%);
+    --eee: #EEEEEE;
+    --e: #7F7F90;
+    --prime-color: hsl(0, 84%, 44%);
+    --prime-color-two: hsl(0, 84%, 49%);
+    --select-color:#D85454;
+    --change-color:hsl(0, 0%, 100%, 0.7);
+    --border-color:#E8E3E3;
+}
+:has(.mood-toggle:checked) {
+  --white-color: black;
+  --border-color: black;
+  --main-colo-black: white;
+  --second-color:white;
+  --black-color: white;
+  --prime-color: hsl(35, 72%, 44%);
+  --prime-color-two: hsl(35, 72%, 49%);
+  --eee: #252525;
+  --select-color:#926321;
+  --p-color: #9F9F9F;
+  --change-color: hsl(0, 0%, 10%, 0.7);
+  --white-color-two: #202020;
+  --white-color-three:#171717 ;
+  --social-color: #0D0D0D;
+  --dis: block;
+  --dib: none;
+}
